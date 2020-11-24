@@ -9,16 +9,25 @@
             text-align: center;
            font-size: 60px;
         }
+        h2{
+            padding: 0fr;
+            color: white;
+            text-align: center;
+            font-style: italic;
+            font-size: 35px;
+        }
         h3{
             padding: 0%;
             color: white;
             text-align: center;
             font-size: 38px;
-            background-color:red;
         }
+
         p{
             padding: 0%;
             color: coral;
             text-align: center;
             font-size: 35px;
         }
+        
+
