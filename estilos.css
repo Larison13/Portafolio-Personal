@@ -4,7 +4,7 @@
         }
         h1{
             padding: 0%;
-            color: chocolate;
+            color: rgb(240, 240, 240);
             background-color: rgba(165, 30, 13, 0.589);
             text-align: center;
            font-size: 60px;
@@ -25,9 +25,15 @@
 
         p{
             padding: 0%;
-            color: coral;
+            color: rgb(223, 223, 226);
             text-align: center;
             font-size: 35px;
         }
-        
+        div.Buttons{
+            padding: 0%;
+            font-style: italic;
+            font-size: 30px;
+            color: tomato;
+            text-align: center;
+        }
 
