@@ -27,3 +27,4 @@ INSERT Into Empleados VALUES ('Claudia Fondeur','22','Agente','Actualmente Ningu
 --update Empleados set Puesto ='Supervisor' where Nombre='Itiel Martinez';
 --select *from Empleados where Nombre ='Itiel Martinez';
 --select *from Empleados
+insert into Empleados values ('Lariso Sep','25','CEO,','100,000','Larison Sepulveda');
