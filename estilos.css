@@ -1,19 +1,19 @@
 /* estilo de mi pagina */
         body{
-            background-color: rgb(180, 174, 174);
+            background-color: rgb(173, 168, 168);
             color: rgb(0, 0, 0);
             background-attachment: fixed;
         }
         h1{
             padding: 0%;    
-            color: rgb(0, 0, 0);
-            background-color: rgb(175, 33, 14);
+            color: rgb(240, 240, 240);
+            background-color: rgb(0, 0, 0);
             text-align: center;
            font-size: 60px;
         }
         h2{
             padding: 0fr;
-            color: rgb(2, 2, 2);
+            color: rgb(0, 0, 0);
             text-align: center;
             font-style: italic;
             font-size: 35px;
@@ -46,7 +46,6 @@
             padding: 20px;
             font-size: 35px;
             color: royalblue;
-            float: 2px;;
         }
         div.content2{
             color: tomato;
@@ -60,5 +59,12 @@
             right: 0px;
             left:0px;
             background-color:blue;
-            float: left;
+        }
+        label{
+            background-color: black;
+            color: blanchedalmond;
+            font-size: 50px;
+            text-align: center;
+
+
         }
