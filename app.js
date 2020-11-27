@@ -1,3 +1,5 @@
+alert("Be Always Motivated!");
+
 document.getElementById('btnscrolltop')
 
     addEventListener('click', function(){
@@ -8,4 +10,5 @@ document.getElementById('btnscrolltop')
             left: 0,
             behavior: 'smooth'
         });
-    }
+    });
+
