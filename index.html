@@ -1,44 +1,26 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        
-        .box{
-            background:black;
-            padding: 10px;
-            color: snow;
-            text-align: center;
-        }
-        .box1{
-            grid-column: 1/3;
-            grid-row: 1/5;
-        }
-
-        .container {
-            margin-top: 100px;
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            grid-template-rows: 1fr 1fr 1fr;
-            grid-gap: 10px;
-
-        }
-    </style>
+    <title>Tu peso en otro planeta</title>
 </head>
+<script>
+   var g_tierra = 9.8;
+   var g_marte = 3.7;
+   var g_jupiter = 24.8;
+   var peso = 77;
+   var peso_final;
+   peso_final = peso * g_marte / g_tierra;
+   document.write(peso_final);
+   peso_final = parseInt(peso_final);
+</script>
 <body>
-    <div class="container">
-        <div class="box box1">#1</div> 
-        <div class="box">2</div>
-        <div class="box">3</div>
-        <div class="box">4</div>
-        <div class="box">5</div>
-        <div class="box">6</div>
-        <div class="box">7</div>
-        <div class="box">8</div>
-        
-    </div>
+    <h1>
+        Tu peso en otro planeta!
+    </h1>
+    <p>
+        En la tierra pesas distinto que en marte o jupiter.
+    </p>
 </body>
 </html>
