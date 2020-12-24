@@ -28,3 +28,5 @@ INSERT Into Empleados VALUES ('Claudia Fondeur','22','Agente','Actualmente Ningu
 --select *from Empleados where Nombre ='Itiel Martinez';
 --select *from Empleados
 insert into Empleados values ('Lariso Sep','25','CEO,','100,000','Larison Sepulveda');
+insert into Empleados values ('Robina Thompson','32','Agente','15,000','Larison Sepulveda');
+
