@@ -4,6 +4,9 @@
             color: rgb(0, 0, 0);
             background-attachment: fixed;
         }
+
+        
+         
         h1{
             padding: 0%;    
             color: rgb(240, 240, 240);
@@ -67,4 +70,8 @@
             text-align: center;
 
 
+        }
+        nav.tituloA {
+
+            padding: 0.5%;
         }
