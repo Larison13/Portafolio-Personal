@@ -1,28 +1,42 @@
 body {
-    margin: auto;
+    margin: 0%;
     padding: 0%; 
     display: flex;      
 }
+
+
  .izquierda {
-     background-color: rgb(28, 28, 92);
+     background-color: rgb(90, 68, 7);
      height: 100vh;
      width: 50%;
      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-     font-size: 25px;
+     font-size: 35px;
      color: rgb(255, 255, 255);
      margin: 0%;
      padding: 0%;
  }
- h1{
+
+
+ h1,h2{
     text-align: center;
+ }
+
+ a{
+     padding: 20px;
+     color: rgb(12, 32, 2);
+     border: darkblue;
+     border-radius: 20px;
+    
  }
 
  p{
      text-align: center;
+     font-size: 25px;
  }
  
+
  .derecha {
-    background: url(https://www.defondos.com/images/wallpapers/Universo%20Azul-696737_800.jpeg);
+    background: url(https://noticialocal.pe/wp-content/uploads/2019/08/Las-cafeterias.jpg);
 
     background-size: cover;
     background-position: left;
