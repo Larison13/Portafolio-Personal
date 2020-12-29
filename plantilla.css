@@ -1,7 +1,10 @@
 body {
     margin: 0%;
     padding: 0%; 
-    display: flex;      
+    display: flex; 
+    height: 100vh;
+    width: 100%;  
+    background-color: rgb(196, 152, 31);   
 }
 
 
@@ -47,4 +50,31 @@ body {
 
  .link{
      text-align: center;
+ }
+
+ h3{
+    font-size: 40px;
+    font-family: cursive;
+    padding: 1.7%;
+
+}
+
+.email {
+    background-color: rgb(196, 152, 31);
+    padding: 0%;
+    margin: 0%;
+    width: 17%;
+    height: 100vh;
+
+ }
+
+ .ema{
+     padding: 3%;
+     border-radius: 5px;
+ }
+
+ .pass{
+     padding: 3%;
+     border-radius: 5px;
+
  }
