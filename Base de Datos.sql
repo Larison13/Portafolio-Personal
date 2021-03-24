@@ -1,7 +1,7 @@
 CREATE DATABASE miste
 use miste;
 GO
-create table Empleados (
+create table Empleados (  
 Nombre varchar(30),
 Edad char (2),
 Puesto Varchar (66),
