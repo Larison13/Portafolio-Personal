@@ -4,31 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tu peso en otro planeta</title>
+    <!-- Esta es la seccion de el estilo de CSS -->
     <style>
         body {
             background-color: chocolate;
+            font-size: 28px;
+            padding-left: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .Titulo {
+            padding:0%;
+           font-size: 35px;
         }
     </style>
+
+<!--Esta es la seccion completa del cuerpo y letras -->
+
 </head>
-<script>
-    var usuario = prompt("cual es tu peso?");
-    var peso = parseInt(usuario);
-   var g_tierra = 9.8;
-   var g_marte = 3.7;
-   var g_jupiter = 24.8;
-   
-   var peso_final;
-   peso_final = peso * g_marte / g_tierra;
-   peso_final = parseInt(peso_final);
-   document.write("Tu peso en marte es <strong> " + peso_final + " Kilos. </strong>");
-  
-</script>
 <body>
-    <h1>
+<!--Aqui intentare poner una foto en la pagina --> 
+
+    <h1 class="Titulo">Bienvenido a tu peso ideal!</h1><br/>
+
+    <h2>
         Tu peso en otro planeta!
-    </h1>
-    <p>
+    </h2>
+    <p class="descripcion">
         En la tierra pesas distinto que en marte o jupiter.
     </p>
+
+<!--Esta es la seccion de JavaScript y el comportamiento -->
+
+    <script>
+        var usuario = prompt("cual es tu peso?");
+        var peso = parseInt(usuario);
+       var g_tierra = 9.8;
+       var g_marte = 3.7;
+       var g_jupiter = 24.8;
+       
+       var peso_final;
+       peso_final = peso * g_marte / g_tierra;
+       peso_final = parseInt(peso_final);
+       document.write("Tu peso en marte es <strong> " + peso_final + " Kilos. </strong>");
+      
+    </script>
+
+    <!--ESO ES TODO AMIGOS!-->
 </body>
 </html>
