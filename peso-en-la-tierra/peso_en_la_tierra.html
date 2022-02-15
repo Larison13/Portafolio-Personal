@@ -11,18 +11,25 @@
 <body> <!--Esta es la seccion completa del cuerpo y letras -->
 <!--Aqui intentare poner una foto en la pagina --> 
     <div id="main-wrapper">
-        <h1 class="Titulo">Calcula tu peso en otro planeta!</h1><br/>
+        <h1 class="Titulo">Calcula tu peso en Marte!</h1><br/>
     </div>
 
     <div id="secondary-wrapper">
 
         <h2>
-            Tu peso en otro planeta!
+            Tu peso en Marte!
         </h2>
 
         <p class="descripcion"> 
-        En la tierra pesas distinto que en marte o jupiter. 
+        En la tierra pesas distinto que en marte o jupiter. ¡En este caso calcularemos la de marte!
         </p>
+
+        <img class="mars-image" src="./SVGs/mars-svgrepo-com.svg" alt="Mars-Planet"/>
+
+        <p>¿Cual es tu nombre?</p><input id="primerNombre" type="text" onkeyup="calculate()">
+        <p>¿Cual es tu peso en Kg?</p><input id="peso" type="number" onkeyup="calculate()">
+        <p>Tu peso en Marte es:</p><p id="answer">
+
 
     </div>
 
@@ -30,21 +37,19 @@
 
 <!--Esta es la seccion de JavaScript y el comportamiento -->
 
-    <script>
-        var nombreU = prompt("Cual es tu nombre?");
-        var results = parseInt(nombreU);
-        var usuario = prompt("cual es tu peso?");
-        var peso = parseInt(usuario);
-        var g_tierra = 9.8;
-        var g_marte = 3.7;
-        var g_jupiter = 24.8;
-       
-        var peso_final;
-       peso_final = peso * g_marte / g_tierra;
-       peso_final = parseInt(peso_final);
-       document.write("Tu peso en marte es <strong>" + peso_final + "Kilos. </strong>" + nombreU);
+<script>
+        
+    function calculate(){
+        var primerNombre = document.getElementById("primerNombre").value; //we get the radius
+        var peso = document.getElementById("peso").value; //we get the height
+
+        var answer = "Exactamente" + " " + peso/9.8*3.7; //same line you used before
+        document.getElementById("answer").innerHTML = answer; //we print the answer
+
+}
       
-    </script>
+</script>
+
 
     <!--ESO ES TODO AMIGOS!-->
 </body>
