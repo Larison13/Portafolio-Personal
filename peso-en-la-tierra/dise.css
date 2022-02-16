@@ -8,7 +8,7 @@
 
 body {
     background-color: #f3ddc7;
-    font-size: 28px;
+    font-size: 30px;
     padding-left: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -27,6 +27,11 @@ body {
     font-size: 4rem;
     color: #ffce64;
 
+}
+
+.Titulo-secundario {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #974f4f;
 }
 
 #secondary-wrapper {

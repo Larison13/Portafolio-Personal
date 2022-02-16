@@ -16,7 +16,7 @@
 
     <div id="secondary-wrapper">
 
-        <h2>
+        <h2 class="Titulo-secundario">
             Tu peso en Marte!
         </h2>
 
@@ -30,8 +30,8 @@
         <p>¿Cual es tu peso en Kg?</p><input id="peso" type="number" onkeyup="calculate()">
         <p>Tu peso en Marte es:</p><p id="answer">
 
-
     </div>
+
 
 
 
@@ -40,10 +40,10 @@
 <script>
         
     function calculate(){
-        var primerNombre = document.getElementById("primerNombre").value; //we get the radius
-        var peso = document.getElementById("peso").value; //we get the height
+        var primerNombre = document.getElementById("primerNombre").value; //we get the name
+        var peso = document.getElementById("peso").value; //we get the weight
 
-        var answer = "Exactamente" + " " + peso/9.8*3.7; //same line you used before
+        var answer = "Hey" + " " + primerNombre + "," + "tu peso es en Marte exactamente" + " " + peso/9.8*3.7 + " " + "Kg";
         document.getElementById("answer").innerHTML = answer; //we print the answer
 
 }
