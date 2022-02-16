@@ -11,6 +11,7 @@ body {
     font-size: 30px;
     padding-left: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 
 #main-wrapper {
@@ -34,18 +35,49 @@ body {
     -webkit-text-stroke-color: #974f4f;
 }
 
+#Marte {
+    color: #d47575;
+    font-weight: 600;
+    
+}
 #secondary-wrapper {
     display: flex;
-    padding-top: 2rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    padding-top: 2rem;
+    padding-bottom: 6rem;
+    
+    
 }
 
 .mars-image {
+
     padding: 2rem 2rem;
     width: 400px;
     height: auto;
+
+}
+
+.earth-image {
+
+    padding: 2rem 2rem;
+    width: 400px;
+    height: auto;
+       
+}
+
+#third-wrapper {
+    display: flex;
+    background-color: #ff6c54;
+    justify-content: center;
+    align-items: center;
+    padding: 0.9rem;
+}
+
+.gracias {
+    font-size: 1.3rem;
 }
 
 

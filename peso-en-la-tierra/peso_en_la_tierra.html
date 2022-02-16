@@ -24,15 +24,22 @@
         En la tierra pesas distinto que en marte o jupiter. ¡En este caso calcularemos la de marte!
         </p>
 
-        <img class="mars-image" src="./SVGs/mars-svgrepo-com.svg" alt="Mars-Planet"/>
+        <div id="planet-container"> <!--Esto le da un buen posicionamiento-->
+
+            <img class="mars-image" src="./SVGs/mars-svgrepo-com.svg" alt="Mars-Planet"/>
+            <img class="earth-image" src="./SVGs/planet-earth-global-svgrepo-com.svg" alt="Earth-Planet"/>
+
+        </div>
 
         <p>¿Cual es tu nombre?</p><input id="primerNombre" type="text" onkeyup="calculate()">
         <p>¿Cual es tu peso en Kg?</p><input id="peso" type="number" onkeyup="calculate()">
-        <p>Tu peso en Marte es:</p><p id="answer">
+        <p>Tu peso en <span id="Marte">Marte</span> es:</p><p id="answer">
 
     </div>
 
-
+    <div id="third-wrapper">
+        <p class="gracias">Gracias por usar nuestra herramienta!</p>
+    </div>
 
 
 <!--Esta es la seccion de JavaScript y el comportamiento -->
@@ -43,7 +50,7 @@
         var primerNombre = document.getElementById("primerNombre").value; //we get the name
         var peso = document.getElementById("peso").value; //we get the weight
 
-        var answer = "Hey" + " " + primerNombre + "," + "tu peso es en Marte exactamente" + " " + peso/9.8*3.7 + " " + "Kg";
+        var answer = "Hey" + " " + primerNombre + "," + " " + "tu peso es en Marte exactamente" + " " + peso/9.8*3.7 + " " + "Kg";
         document.getElementById("answer").innerHTML = answer; //we print the answer
 
 }
