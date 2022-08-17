@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tu peso en otro planeta</title>
+        <link rel="stylesheet" href="dise.css">  <!-- Esta es la seccion de el estilo de CSS -->
+    </head>
+
+<body> <!--Esta es la seccion completa del cuerpo y letras -->
+<!--Aqui intentare poner una foto en la pagina --> 
+    <div id="main-wrapper">
+        <h1 class="Titulo">Calcula tu peso en Marte!</h1><br/>
+    </div>
+
+    <div id="secondary-wrapper">
+
+        <h2 class="Titulo-secundario">
+            Tu peso en Marte!
+        </h2>
+
+        <p class="descripcion"> 
+        En la tierra pesas distinto que en marte o jupiter. ¡En este caso calcularemos la de marte!
+        </p>
+
+        <div id="planet-container"> <!--Esto le da un buen posicionamiento-->
+
+            <img class="mars-image" src="./SVGs/mars-svgrepo-com.svg" alt="Mars-Planet"/>
+            <img class="earth-image" src="./SVGs/planet-earth-global-svgrepo-com.svg" alt="Earth-Planet"/>
+
+        </div>
+
+        <p>¿Cual es tu nombre?</p><input id="primerNombre" type="text" onkeyup="calculate()">
+        <p>¿Cual es tu peso en Kg?</p><input id="peso" type="number" onkeyup="calculate()">
+        <p>Tu peso en <span id="Marte">Marte</span> es:</p><p id="answer">
+
+    </div>
+
+    <div id="third-wrapper">
+        <p class="gracias">Gracias por usar nuestra herramienta!</p>
+    </div>
+
+
+<!--Esta es la seccion de JavaScript y el comportamiento -->
+
+<script>
+        
+    function calculate(){
+        var primerNombre = document.getElementById("primerNombre").value; //we get the name
+        var peso = document.getElementById("peso").value; //we get the weight
+
+        var answer = "Hey" + " " + primerNombre + "," + " " + "tu peso es en Marte exactamente" + " " + peso/9.8*3.7 + " " + "Kg";
+        document.getElementById("answer").innerHTML = answer; //we print the answer
+
+}
+      
+</script>
+
+
+    <!--ESO ES TODO AMIGOS!-->
+</body>
+</html>
